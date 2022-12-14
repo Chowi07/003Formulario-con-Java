@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Practicando condicionales</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario para JS</h1>
+       </header>
+       
+       
+       <main>
+            <section class="sec-1">
+                <div class="container">
+                    <h1 id="tit" >ELEJÍ LA MEJOR CUOTA</h1>
+                    <form action="">
+                        <div>
+                            <label for="genero"><strong>GENERO</strong></label>
+                            <select name="" id="genero">
+                                <option value="hombre" >hombre</option>
+                                <option value="mujer" >mujer</option>
+                            </select> 
+                        </div>           
+                        <div>
+                            <label for="edad"><strong>EDAD</strong></label>
+                            <input type="number" name="" id="edad" required>
+                        </div>
+    
+                        <div>
+                            <button type="button" onclick="generaCuota()">VER CUOTA</button> 
+                        </div>
+                     </form>  
+                     <div id="cuota"></div>   
+                </div>                           
+            </section>
+    
+            <section class="sec-2">
+                <img src="./img/m-g.jpg" style="">
+            </section>
+    </main>
+
+
+
+    <script src="indexjs.js"></script>
+</body>
+</html>

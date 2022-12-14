@@ -1,0 +1,14 @@
+{
+  "name": "java",
+  "version": "1.0.0",
+  "description": "practicando con npm y libreria de node",
+  "main": "indexjs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zoe",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^2.3.3"
+  }
+}
